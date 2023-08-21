@@ -1,6 +1,16 @@
 resources:
 # IBM Software
 
+- argocd/operators/ibm-mq-operator.yaml
+- argocd/operators/ibm-platform-navigator.yaml
+- argocd/instances/ibm-platform-navigator-instance.yaml
+- argocd/operators/ibm-foundations.yaml
+- argocd/instances/ibm-foundational-services-instance.yaml
+- argocd/operators/ibm-automation-foundation-core-operator.yaml
+- argocd/operators/ibm-catalogs.yaml
+- argocd/instances/sealed-secrets.yaml
+- argocd/operators/openshift-pipelines.yaml
+
 ## Cloud Pak for Integration
 #- argocd/operators/ibm-ace-operator.yaml
 #- argocd/operators/ibm-apic-operator.yaml
