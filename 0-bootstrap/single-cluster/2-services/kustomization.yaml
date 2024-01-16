@@ -10,7 +10,7 @@ resources:
 - argocd/operators/ibm-catalogs.yaml
 - argocd/instances/sealed-secrets.yaml
 - argocd/operators/openshift-pipelines.yaml
-#- argocd/operators/ibm-ace-operator.yaml
+- argocd/operators/ibm-ace-operator.yaml
 
 ## Cloud Pak for Integration
 #- argocd/operators/ibm-ace-operator.yaml
